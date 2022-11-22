@@ -1,0 +1,10 @@
+/*Responsive Image Base*/
+img,video{
+  width:auto;
+  heighht:auto;
+  max-width:100%;
+}
+
+div img{
+  width:900px;
+}
