@@ -1,10 +1,80 @@
+
+.navlist li
+{
+    display: inline; /* brings nav elements up next to each other */
+    list-style-type: none; /* removes the bullet points */
+    padding-right: 20px; /* spaces them out from each other. Adjust to suit your needs */
+}
+
+.con img{ display:block; margin:auto;}
+.con iframe{ display:block; margin:auto;}
+
 /*Responsive Image Base*/
 img,video{
   width:auto;
-  heighht:auto;
+  height:auto;
   max-width:100%;
 }
 
 div img{
-  width:900px;
+  width:800px;
+}
+
+div iframe{
+  width:800px;
+  heighht:800px;
+}
+
+body{
+  background-image : url(/images/bg-yellow.jpg);
+}
+
+nav{
+  text-align:center;
+  font-size:15pt;
+  font-family:Luminari, fantasy;
+}
+
+h1{
+  text-align:center;
+  font-size:75pt;
+  color:#8d8c6288;
+  font-family:Georgia, serif;
+}
+
+h2{
+  text-align:center;
+  font-size:30pt;
+  font-family:Bradley Hand, cursive;
+}
+
+h3{
+  text-align:center;
+  font-size:30pt;
+  font-family:Bradley Hand, cursive;
+}
+
+h4{
+  text-align:center;
+  font-size:15pt;
+  font-family:Apple Chancery, cursive;
+}
+
+h5{
+  text-align:center;
+  font-size:13pt;
+  font-family:Apple Chancery, cursive;
+}
+
+
+h6{
+  text-align:center;
+  font-family:Chalkduster, fantasy;
+  font-size:20pt;
+  color:#787768
+}
+
+p{
+  font-family:Optima, sans-serif;
+  font-size:15pt;
 }
