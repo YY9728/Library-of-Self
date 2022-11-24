@@ -37,9 +37,10 @@ nav{
 
 h1{
   text-align:center;
+  text-shadow: 1px 1px 2px #ecf0d1;
   font-size:75pt;
   color:#8d8c6288;
-  font-family:Georgia, serif;
+  font-family:Marker Felt;
 }
 
 h2{
@@ -77,4 +78,10 @@ h6{
 p{
   font-family:Optima, sans-serif;
   font-size:15pt;
+}
+
+p em{
+  color:#df5320;
+  font-size:25pt;
+  font-weight:bold;
 }
