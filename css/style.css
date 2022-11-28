@@ -90,3 +90,9 @@ p em{
   font-size:25pt;
   font-weight:bold;
 }
+
+footer p{
+  text-align:center;
+  font-size:10pt;
+  color:gray;
+}
